@@ -1,25 +1,25 @@
 class Skillctl < Formula
-  desc "CLI tool to manage your personal Claude skills library across projects"
+  desc "CLI to manage your personal agent skills library across projects"
   homepage "https://github.com/umanio-agency/skillctl"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.1/skillctl-aarch64-apple-darwin.tar.xz"
-      sha256 "200d756c385e55324a68988e2b98daf9ebea4e58bbe9cccc23ef386441786ee3"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.2/skillctl-aarch64-apple-darwin.tar.xz"
+      sha256 "fe10793a886b6d3b47e2174cdf3020d7906f1d02ef9ac57d6bd7cb9262a2a657"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.1/skillctl-x86_64-apple-darwin.tar.xz"
-      sha256 "ac9702338b6abb54296d05304e421c86b9ba7badb284ad89370090dfc4b6e1d5"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.2/skillctl-x86_64-apple-darwin.tar.xz"
+      sha256 "0fe0119567a9784e33beac0231312f685c93faa24973d3d86a5235c74ddc62a6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.1/skillctl-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6db927d6694024c6c8905930305f3f7761510650cecc5b50000af408388a5abc"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.2/skillctl-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "76922a06ccc3093037ffa8e8f15d9edaccbae1347597dcad2f16a4d7c73a31df"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.1/skillctl-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e27ff85d77d6db8befc322c09681407fade70ea1328e0dde9ff5f9a958f5f482"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.1.2/skillctl-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "38e38832b0e18fce181e3954e20e54d23c2a708b9a39270e0ee840fd399d51c4"
     end
   end
   license "MIT"
