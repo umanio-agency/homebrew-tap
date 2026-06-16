@@ -1,25 +1,25 @@
 class Skillctl < Formula
   desc "CLI to manage your personal agent skills library across projects"
   homepage "https://github.com/umanio-agency/skillctl"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.3.0/skillctl-aarch64-apple-darwin.tar.xz"
-      sha256 "d425f2f48a44bb1667bba8ad48f8df0edb90cbb146971688522a11c3261bc8df"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.4.0/skillctl-aarch64-apple-darwin.tar.xz"
+      sha256 "00f0617397ebed3478ac98791b0aa724fd7630425824a991de216a3a9f845a0b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.3.0/skillctl-x86_64-apple-darwin.tar.xz"
-      sha256 "bee093b5731884963a4db4500cbc667af84b8264f1a89df9f905407ddad59307"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.4.0/skillctl-x86_64-apple-darwin.tar.xz"
+      sha256 "9f63792b6fdca60ed9c01bca0a07fa9b5fb83b40bcd25f3107e8e1dba4c2b7bc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.3.0/skillctl-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1199fe2b060f4bbc1e1526c0e413b36ccd079c67cc49900d790c3e01d572380b"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.4.0/skillctl-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3adeb7c110ace30f55fe59d9c6f5e2ea983b8350c494abcdd97c19e6ee021699"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/umanio-agency/skillctl/releases/download/v0.3.0/skillctl-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fe8cded723017b596e89d88191a9dbce088cf25a90bf6031d4385b27b191c156"
+      url "https://github.com/umanio-agency/skillctl/releases/download/v0.4.0/skillctl-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b7f012c8d5a3ebab97ebc9688f2e454e67f822a3b9544dcbff20efc3d7d2e588"
     end
   end
   license "MIT"
